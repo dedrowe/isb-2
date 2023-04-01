@@ -54,7 +54,8 @@ def longest_sequence_of_ones_test(subsequence: str) -> float:
 
 
 if __name__ == '__main__':
-    bit_sequence = "11100010010111010010101001010000110011110100100110011010000100101101011110001101100111010000010111101111011110100010010000110101"
-    print(f'\nЧастотный побитовый тест: {frequency_test(bit_sequence)}')
-    print(f'Тест на одинаковые подряд идущие биты: {identical_consecutive_bit_test(bit_sequence)}')
-    print(f'Тест на самую длинную последовательность единиц в блоке: {longest_sequence_of_ones_test(bit_sequence)}')
+    bit_sequence1 = "11100010010111010010101001010000110011110100100110011010000100101101011110001101100111010000010111101111011110100010010000110101"
+    bit_sequence2 = "11100010010111010010101001010000110011110100100110011010000100101101011110001101100111010000010111101111011110100010010000110100"
+    print(f'\nЧастотный побитовый тест: {frequency_test(bit_sequence2)}')
+    print(f'Тест на одинаковые подряд идущие биты: {identical_consecutive_bit_test(bit_sequence2)}')
+    print(f'Тест на самую длинную последовательность единиц в блоке: {longest_sequence_of_ones_test(bit_sequence2)}')
